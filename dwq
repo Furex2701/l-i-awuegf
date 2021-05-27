@@ -1,8 +1,8 @@
 char Char_pb(vector<char> vector)
 {
 	int size = vector.size();
-	short l = 1;
-		if (vector[size - l] == 'x')
+	
+		if (vector[size - 1] == 'x')
 		{
 			
 			return 'o';
