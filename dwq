@@ -7,7 +7,7 @@ char Char_pb(vector<char> vector)
 			
 			return 'o';
 		}
-		else if(vector[size - l] == 'o' || vector[size - l] == ' ')
+		else if(vector[size - 1] == 'o' || vector[size - l] == ' ')
 		{
 			
 			return 'x';
