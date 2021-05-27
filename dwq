@@ -1,9 +1,5 @@
 char Char_pb(vector<char> vector)
 {
-	
-	//if (InputIsValid(input))
-	//{
-		
 	int size = vector.size();
 	short l = 1;
 		if (vector[size - l] == 'x')
